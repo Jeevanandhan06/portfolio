@@ -29,7 +29,7 @@ class Home extends StatelessWidget {
               CircleAvatar(
                 backgroundColor: Colors.white,
                 backgroundImage: AssetImage("images/1.jpg"),
-                radius: 60,
+                radius: 50,
               ),
               Text(
                 "Jeevanandhan",
@@ -43,6 +43,7 @@ class Home extends StatelessWidget {
                 style: GoogleFonts.arimo(color: Colors.white, fontSize: 20),
               ),
               Container(
+
                 margin: EdgeInsets.symmetric(horizontal: 130),
                 child: Divider(
                   color: Colors.white,
@@ -50,10 +51,14 @@ class Home extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 30,
+                height: 10,
               ),
               Container(
-                color: Colors.white,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(5),
+                    color: Colors.white,
+                ),
+
                 width: MediaQuery.of(context).size.width - 45,
                 height: 45,
                 child: Row(children: [
@@ -61,12 +66,12 @@ class Home extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 8.0),
                     child: Icon(
                       Icons.phone,
-                      size: 25,
+                      size: 20,
                       color: Color(0xFF019488),
                     ),
                   ),
                   SizedBox(
-                    width: 30,
+                    width: 20,
                   ),
                   Text(
                     "+91 9894290604",
@@ -82,16 +87,23 @@ class Home extends StatelessWidget {
                 height: 20,
               ),
               Container(
-                color: Colors.white,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(5),
+                    color: Colors.white,
+                ),
+
                 width: MediaQuery.of(context).size.width - 45,
                 height: 45,
                 child: Row(children: [
                   Padding(
+
                     padding: const EdgeInsets.symmetric(horizontal: 8.0),
                     child: Icon(
                       Icons.email_rounded,
-                      size: 25,
+                      size: 20,
+
                       color: Color(0xFF019488),
+
                     ),
                   ),
                   SizedBox(
